@@ -9,17 +9,21 @@ const Skills = () => {
       <Title title="SKILLS" span="SKILLS" />
       <InnerLayout>
         <div className="skills">
-          <ProgressBar title={"HTML5"} width={"95%"} text={"95%"} />
-          <ProgressBar title={"CSS3"} width={"90%"} text={"90%"} />
-          <ProgressBar title={"JAVASCRIPT"} width={"85%"} text={"85%"} />
-          <ProgressBar title={"REACT JS"} width={"75%"} text={"75%"} />{" "}
+          <ProgressBar title={"HTML5"} width={"100%"} text={"100%"} />
+          <ProgressBar title={"CSS3"} width={"95%"} text={"95%"} />
+          <ProgressBar title={"JAVASCRIPT"} width={"95%"} text={"95%"} />
+          <ProgressBar title={"TYPESCRIPT"} width={"95%"} text={"95%"} />
+          <ProgressBar title={"REACT JS"} width={"85%"} text={"85%"} />
+          <ProgressBar title={"ANGULAR"} width={"85%"} text={"85%"} />
+          <ProgressBar title={"BITRISE"} width={"95%"} text={"95%"} />
           <ProgressBar title={"DOCKER"} width={"70%"} text={"70%"} />
           <ProgressBar title={"TERRAFORM"} width={"75%"} text={"75%"} />
           <ProgressBar title={"AWS"} width={"60%"} text={"60%"} />
           <ProgressBar title={"C++"} width={"50%"} text={"50%"} />
-          <ProgressBar title={"JIRA"} width={"90%"} text={"90%"} />{" "}
-          <ProgressBar title={"BITBUCKET"} width={"90%"} text={"90%"} />{" "}
-          <ProgressBar title={"LINUX"} width={"90%"} text={"90%"} />{" "}
+          <ProgressBar title={"JIRA"} width={"90%"} text={"90%"} />
+          <ProgressBar title={"GITHUB"} width={"90%"} text={"90%"} />
+          <ProgressBar title={"BITBUCKET"} width={"90%"} text={"90%"} />
+          <ProgressBar title={"LINUX"} width={"90%"} text={"90%"} />
           <ProgressBar title={"ENGLISH"} width={"95%"} text={"95%"} />
           <ProgressBar title={"GOOGLING"} width={"100%"} text={"100%"} />
         </div>
