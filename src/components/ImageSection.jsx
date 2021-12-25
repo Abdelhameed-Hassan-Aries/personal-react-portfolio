@@ -36,7 +36,7 @@ const ImageSection = () => {
           </div>
         </div>
         <a
-          href="https://drive.google.com/file/d/1F5Y_931HQdihZLcT6qUr0hk8MfeBI2Uf/view?usp=sharing"
+          href="https://drive.google.com/file/d/1jyplB3joF56qkr6wzRWJeIi7YI-Yp2ck/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
