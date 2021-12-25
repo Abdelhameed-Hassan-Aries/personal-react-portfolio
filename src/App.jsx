@@ -8,10 +8,8 @@ import PortfolioPage from "./pages/PortfolioPage";
 import ResumePage from "./pages/ResumePage";
 import BlogPage from "./pages/BlogPage";
 import ContactPage from "./pages/ContactPage";
-import Brightness4Icon from "@material-ui/icons/Brightness4";
-import { IconButton, Switch as SwitchIcon } from "@material-ui/core";
+import { IconButton } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
-// 7.27
 
 function App() {
   const [theme, setTheme] = useState("dark-theme");
@@ -31,26 +29,11 @@ function App() {
 
   const handleNavClick = () => {
     setNavToggle(!navToggle);
-    console.log("clicked");
   };
 
   return (
     <div className="App">
-      <Sidebar navToggle={navToggle} handleNavClick={handleNavClick} />
-      <div className="light-dark-mode">
-        <div className="left-content">
-          <Brightness4Icon />
-        </div>
-        <div className="right-content">
-          <SwitchIcon
-            value=""
-            inputProps={{ "aria-label": "" }}
-            size="medium"
-            onClick={themeToggler}
-          />
-        </div>
-      </div>
-
+      <Sidebar navToggle={navToggle} handleNavClick={handleNavClick} themeToggler={themeToggler}/>
       <div className="hamburger-menu">
         <IconButton onClick={() => setNavToggle(!navToggle)}>
           <MenuIcon />

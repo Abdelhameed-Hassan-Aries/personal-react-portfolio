@@ -1,8 +1,10 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import avatar from "../imgs/avatar.jpg";
+import Brightness4Icon from "@material-ui/icons/Brightness4";
+import {  Switch as SwitchIcon } from "@material-ui/core";
 
-const Navigation = ({ handleNavClick }) => {
+const Navigation = ({ handleNavClick, themeToggler }) => {
   return (
     <NavigationStyled>
       <div className="avatar">
@@ -70,8 +72,23 @@ const Navigation = ({ handleNavClick }) => {
           </NavLink>
         </li>
       </ul>
-      <footer className="footer">
+      <footer className="footer-container">
+      <div className="light-dark-mode">
+        <div className="left-content">
+          <Brightness4Icon />
+        </div>
+        <div className="right-content">
+          <SwitchIcon
+            value=""
+            inputProps={{ "aria-label": "" }}
+            size="medium"
+            onClick={themeToggler}
+          />
+        </div>
+      </div>
+        <div className="footer">
         <p> Portfolio Website @{new Date().getFullYear()}</p>
+        </div>
       </footer>
     </NavigationStyled>
   );
@@ -149,14 +166,17 @@ const NavigationStyled = styled.div`
     }
   }
 
-  footer {
-    border-top: 1px solid var(--border-color);
-    width: 100%;
-    p {
-      padding: 2rem 0;
-      font-size: 0.6rem;
-      display: block;
-      text-align: center;
+  .footer-container{
+    .footer {
+      border-top: 1px solid var(--border-color);
+      width: 100%;
+      margin-top: 20px;
+      p {
+        padding: 2rem 0;
+        font-size: 0.6rem;
+        display: block;
+        text-align: center;
+      }
     }
   }
 `;

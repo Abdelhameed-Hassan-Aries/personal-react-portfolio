@@ -16,7 +16,7 @@ const ServicesSection = () => {
             image={design}
             title={"Web Development"}
             paragraph={
-              "Creating responsive websites and stunning visual elements of web applications by translating UI/UX designs high quality code."
+              "Creating responsive & adaptive websites & mobile apps with stunning visuals by translating UI/UX designs into clean & high quality code."
             }
           />
           <div className="mid-card">

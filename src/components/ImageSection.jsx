@@ -13,7 +13,7 @@ const ImageSection = () => {
           I am <span>Abdelhameed Hassan</span>
         </h4>
         <p className="paragraph">
-          Meticulous Software Engineer with 1+ years of front-end experience and
+          Meticulous Software Engineer with 2+ years of front-end experience and
           a passion for creating responsive website designs and a firm believer
           in mobile-first approach.
         </p>

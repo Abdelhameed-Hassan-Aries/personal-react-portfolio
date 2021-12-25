@@ -1,10 +1,10 @@
 import styled from "styled-components";
 import Navigation from "./Navigation";
 
-const Sidebar = ({ navToggle, handleNavClick }) => {
+const Sidebar = ({ navToggle, handleNavClick, themeToggler }) => {
   return (
     <SidebarStyled className={`${navToggle ? "nav-toggler" : ""}`}>
-      <Navigation handleNavClick={handleNavClick} />
+      <Navigation handleNavClick={handleNavClick} themeToggler={themeToggler}/>
     </SidebarStyled>
   );
 };

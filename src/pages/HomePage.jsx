@@ -44,7 +44,7 @@ const HomePage = () => {
             <FacebookIcon />
           </a>
           <a
-            href="https://github.com/abdelhameed-hassan"
+            href="https://github.com/Abdelhameed-Hassan-Aries"
             className="icon i-github"
             target="_blank"
             rel="noreferrer"
